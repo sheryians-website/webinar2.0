@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "img[loading]",
+          "iframe[allow]",
+          "iframe[loading]"
+        ]
+      }
+    ],
+    "no-inline-styles": "off",
+    "typescript-config/consistent-casing": "off",
+    "typescript-config/strict": "off"
+  }
+}

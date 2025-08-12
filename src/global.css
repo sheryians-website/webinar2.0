@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "ApfelGrotezk";
+  src: url("https://ik.imagekit.io/sheryians/CG-01/fonts/ApfelGrotezk-Mittel_4DnQdUWFs.woff2?updatedAt=1736836986988") format("woff2");
+}
+
+@font-face {
+  font-family: "ApfelGrotezkBase";
+  src: url("https://ik.imagekit.io/sheryians/CG-01/fonts/ApfelGrotezk-Regular_2H6QscIWDJ.woff2?updatedAt=1736836986920") format("woff2");
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply leading-normal m-0 box-border;
+}
+
+html,
+body {}
+
+*,
+::before,
+::after {
+  border-width: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #000000a4;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0a6df0;
+}
+
+@media (max-width: 360px) {
+
+  html,
+  body {
+    font-size: 4vw;
+  }
+}
