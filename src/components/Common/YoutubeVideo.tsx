@@ -25,7 +25,7 @@ const YoutubeVideo = ({
             loading="lazy"
             className="absolute bottom-0 left-0 right-0 top-0 h-full w-full rounded-xl object-contain"
             allow="autoplay"
-            src={`https://www.youtube.com/embed/xhrnNpAsqeA?vq=hd1080&rel=0&iv_load_policy=3&fs=0&color=white&controls=0&autoplay=1&iv_load_policy=3`}
+            src={`https://www.youtube.com/embed/1RI4rU2wK9U?vq=hd480&rel=0&iv_load_policy=3&fs=0&color=white&controls=0&autoplay=1&iv_load_policy=3`}
           />
         )}
         <motion.img
