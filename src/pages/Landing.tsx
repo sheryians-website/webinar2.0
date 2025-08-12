@@ -273,7 +273,7 @@ const Landing = () => {
                     </Heading>
                     <SubHeading className="!font-apfel-grotezk text-gray-100">From learners to leaders - Empowering tech journeys worldwide.</SubHeading>
                 </div>
-                <div className="flex justify-around text-3xl text-steelblue gap-4 p-4 w-screen jb max-w-4xl">
+                <div className="flex justify-around text-3xl text-[#0a6df0] gap-4 p-4 w-screen jb max-w-4xl">
                     <InfoBadge value="7+" title="Countries" />
                     <InfoBadge value="30K+" dark title="Learners" />
                     <InfoBadge value="4.6/5★" title="Rating" />
@@ -421,7 +421,7 @@ const Landing = () => {
             {/*** Certificate Section ***/}
 
             {/*** Mockup Section ***/}
-            <Section>
+            {/* <Section>
                 <Heading>
                     Where <TextBlue>Passion</TextBlue> Meets Progress Our Students in Action!
                 </Heading>
@@ -431,17 +431,17 @@ const Landing = () => {
                     <ImageCard src="https://ik.imagekit.io/sheryians/CG-01/Frame%2042_gFDPbp1L2.png?updatedAt=1736848422496" />
                     <ImageCard src="https://ik.imagekit.io/sheryians/CG-01/moc11_Upoz2QnJb.png?updatedAt=1736848422191" />
                 </Carousel>
-            </Section>
+            </Section> */}
 
             {/*** Impact Section ***/}
             <Section>
                 <Heading>
                     The <TextBlue>Impact</TextBlue> You Can See <br /> and Feel!
                 </Heading>
-                <div className="flex mq1024:flex-col items-center gap-10">
-                    <ImpactCard imageSrc="https://ik.imagekit.io/sheryians/CG-01/demo1_8lyLNDu8Bf.jpeg?updatedAt=1736836797249" title="Achieve Your Dream Tech Job Faster" info="Unlock your potential and build a successful career in tech." />
-                    <ImpactCard imageSrc="https://ik.imagekit.io/sheryians/CG-01/demo2_t63NUPiHc.jpeg?updatedAt=1736836797237" title="Boost confidence in solving coding problems" info="Gain hands-on experience and confidence to tackle real-world coding challenges." />
-                    <ImpactCard imageSrc="https://ik.imagekit.io/sheryians/CG-01/demo3_kOi7izS6jE.jpeg?updatedAt=1736836797102" title="Build Connections with Like-minded Individuals." info="Build valuable connections with mentors and peers for mutual learning." />
+                <div className="flex mq1024:flex-col pb-[1rem] items-center gap-10">
+                    <ImpactCard imageSrc="https://plus.unsplash.com/premium_vector-1720884441870-91fb2d333ced?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8am9ifGVufDB8MHwwfHx8MA%3D%3D" title="Achieve Your Dream Tech Job Faster" info="Unlock your potential and build a successful career in tech." />
+                    <ImpactCard imageSrc="https://plus.unsplash.com/premium_vector-1734618352115-dbfe32e18b35?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNvZGluZyUyMHByb2JsZW18ZW58MHwwfDB8fHww" title="Boost confidence in solving coding problems" info="Gain hands-on experience and confidence to tackle real-world coding challenges." />
+                    <ImpactCard imageSrc="https://plus.unsplash.com/premium_vector-1683141067775-083bef0a5aa2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI5fHxidWlsZCUyMGNvbm5lY3Rpb25zfGVufDB8MHwwfHx8MA%3D%3D" title="Build Connections with Like-minded Individuals." info="Build valuable connections with mentors and peers for mutual learning." />
                 </div>
             </Section>
 
