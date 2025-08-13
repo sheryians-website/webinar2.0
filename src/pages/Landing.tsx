@@ -194,7 +194,7 @@ const Landing = () => {
                         fbq("track", "AddToCart");
                         window.open("https://pages.razorpay.com/webinar-sheryians", "_blank");
                     }}
-                    seatsLeft=" 17 seats left"
+                    seatsLeft=" 16 seats left"
                 />
 
                 <div className="text-10xl mq400:text-7xl leading-[1.875rem] font-apfel-grotezk text-center inline-block overflow-hidden text-black px-[1.2rem]">
