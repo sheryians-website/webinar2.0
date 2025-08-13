@@ -182,8 +182,8 @@ const Landing = () => {
                                 <path d="M10.5345 1.17969V4.10857M4.67672 1.17969V4.10857M1.01562 7.03711H14.1956M2.48006 2.64453H12.7311C13.5399 2.64453 14.1956 3.30018 14.1956 4.10897V14.36C14.1956 15.1688 13.5399 15.8245 12.7311 15.8245H2.48006C1.67128 15.8245 1.01562 15.1688 1.01562 14.36V4.10897C1.01562 3.30018 1.67128 2.64453 2.48006 2.64453Z" stroke="#0A6DF0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
                             <div className=" leading-[1.1875rem]">
-                                <p className="m-0">Starts at 12 PM IST on Feb</p>
-                                <p className="m-0">2nd Sunday</p>
+                                <p className="m-0">Starts at 12 PM IST on Aug</p>
+                                <p className="m-0">17th Sunday</p>
                             </div>
                         </div>
                     </div>
