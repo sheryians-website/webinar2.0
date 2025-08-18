@@ -183,7 +183,7 @@ const Landing = () => {
                             </svg>
                             <div className=" leading-[1.1875rem]">
                                 <p className="m-0">Starts at 12 PM IST on Aug</p>
-                                <p className="m-0">17th Sunday</p>
+                                <p className="m-0">24th Sunday</p>
                             </div>
                         </div>
                     </div>
@@ -241,7 +241,7 @@ const Landing = () => {
             </Section>
 
             {/*** Company Logo ***/}
-            <Section className="relative text-center text-17xl text-black font-apfel-grotezk overflow-hidden w-screen">
+            <Section className="relative text-center text-xl text-black font-apfel-grotezk overflow-hidden w-screen">
                 <Heading>
                     {" "}
                     Learners working in <br /> <TextBlue>Brands</TextBlue> like{" "}
