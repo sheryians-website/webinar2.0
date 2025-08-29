@@ -183,7 +183,7 @@ const Landing = () => {
                             </svg>
                             <div className=" leading-[1.1875rem]">
                                 <p className="m-0">Starts at 12 PM IST on Aug</p>
-                                <p className="m-0">24th Sunday</p>
+                                <p className="m-0">31st Sunday</p>
                             </div>
                         </div>
                     </div>
